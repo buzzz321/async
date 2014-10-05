@@ -13,7 +13,7 @@ list(APPEND CMAKE_CXX_FLAGS "-Wall --pedantic -O3 -std=c++0x  -pthread") #-fno-e
 # Unit Tests
 ################################
 # Add test cpp file
-set (async_SRC async.cc
+set (async_SRC async2.cc
       )
 add_executable( async ${async_SRC})
 # Link test executable against gtest & gtest_main
